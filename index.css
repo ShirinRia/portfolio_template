@@ -53,3 +53,14 @@ font-weight: 400;
 margin-bottom: 30px;
 /* max-width: 450px; */
 }
+
+/* main section */
+.bdy-sec{
+    margin:0px 230px;
+}
+.failurescontainer{
+    display:flex;
+    gap: 85px;
+    align-items:center;
+   
+}
