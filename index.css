@@ -2,7 +2,10 @@
 body{
     margin: 0px;
     /* font-family: 'Open Sans', sans-serif; */ 
-font-family: 'Work Sans', sans-serif;
+
+}
+*{
+    font-family: 'Work Sans', sans-serif;
 }
 .btn{
     border-radius: 5px;
@@ -56,11 +59,122 @@ margin-bottom: 30px;
 
 /* main section */
 .bdy-sec{
-    margin:0px 230px;
+    margin:140px 230px;
+    /* background-color:aquamarine; */
 }
 .failurescontainer{
     display:flex;
-    gap: 85px;
+    gap: 134px;
     align-items:center;
    
+}
+.imgperson{
+    width: 400px;
+height: 500px;
+}
+.sectiontitle{
+    color:  #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.secdesc{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+}
+.right > ul li{
+    color:  #444343;
+font-size: 16px;
+font-weight: 400;
+list-style: none;
+
+}
+
+
+/* 4th part */
+.txtcon{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.frthbtn{
+background: #FFF;
+color: #F15B22;
+/* margin-bottom: 20px; */
+}
+.imag{
+   
+    background-image:url('./images/gradient2.png'),url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    align-items:center;
+    /* justify-content: flex-start; */
+    border-radius:8px;
+
+}
+.txtcon{
+    padding:50px;
+    width:50%;
+}
+
+/* footer */
+footer{
+    background-color:black;
+    color:white;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding:130px 70px;
+    gap:330px;
+    
+}
+.ftrclm{
+    width:50%;
+}
+.frm input[type="text"]{
+    display:block;
+    width:80%;
+    background-color:transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 22px 44px;
+    margin-bottom: 16px;
+    color: #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+}
+.ftrttl{
+    color:#F8F8F8;
+}
+footer p{
+    margin-bottom: 24px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+}
+.sociallinks a{
+    margin-right:5px;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-around;
+    gap:5px;
+}
+.boxheader{
+    color: #151414;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
+.box{
+    text-align: center;
+}
+.box p{
+    color: #737272;
+text-align: center;
+font-size: 15px;
+font-weight: 500;
 }
